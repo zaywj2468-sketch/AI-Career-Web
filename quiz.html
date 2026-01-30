@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>แบบทดสอบอาชีพ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="navbar">AI Career Guide 🤖</div>
+  <h2>ตอบคำถามเพื่อวิเคราะห์อาชีพ</h2>
+
+  <div class="card"><p>1. คุณชอบวิชาอะไร?</p>
+    <select id="q1">
+      <option value="tech">คณิต/คอม</option>
+      <option value="art">ศิลปะ</option>
+      <option value="health">ชีวะ</option>
+      <option value="business">การเงิน</option>
+    </select>
+  </div>
+
+  <div class="card"><p>2. เวลาว่างชอบทำอะไร?</p>
+    <select id="q2">
+      <option value="tech">เล่นเกม/เขียนโค้ด</option>
+      <option value="art">วาดรูป</option>
+      <option value="health">ดูแลคน</option>
+      <option value="business">ขายของ</option>
+    </select>
+  </div>
+
+  <div class="card"><p>3. คุณเป็นคนแบบไหน?</p>
+    <select id="q3">
+      <option value="tech">ชอบแก้ปัญหา</option>
+      <option value="art">สร้างสรรค์</option>
+      <option value="health">ใจดี ชอบช่วยเหลือ</option>
+      <option value="business">เป็นผู้นำ</option>
+    </select>
+  </div>
+
+  <div class="card"><p>4. เวลาทำงานกลุ่มคุณมักจะ...</p>
+    <select id="q4">
+      <option value="tech">วางระบบ</option>
+      <option value="art">ออกแบบ</option>
+      <option value="health">ดูแลเพื่อน</option>
+      <option value="business">วางแผนงาน</option>
+    </select>
+  </div>
+
+  <div class="card"><p>5. เป้าหมายชีวิตของคุณ?</p>
+    <select id="q5">
+      <option value="tech">สร้างเทคโนโลยี</option>
+      <option value="art">สร้างผลงานศิลปะ</option>
+      <option value="health">ช่วยคนจำนวนมาก</option>
+      <option value="business">ประสบความสำเร็จทางธุรกิจ</option>
+    </select>
+  </div>
+
+  <div class="card"><p>6. สายการเรียนที่คุณสนใจตอนนี้?</p>
+    <select id="q6">
+      <option value="tech">วิทย์–คณิต</option>
+      <option value="art">ศิลป์</option>
+      <option value="health">สายสุขภาพ</option>
+      <option value="business">บริหารธุรกิจ</option>
+    </select>
+  </div>
+
+  <button onclick="analyze()" class="btn">ดูผลลัพธ์</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
